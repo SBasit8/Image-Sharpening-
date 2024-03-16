@@ -6,7 +6,7 @@ import zipfile
 # Bluring of images with custom values  
 def blurfn(img):
     if input==1:
-        blur=cv2.medianBlur(img,kernal)
+        blur=cv2.medianBlur(img,4)
     elif input==2:
         blur=cv2.GaussianBlur(img,(0,0),4)
     else:
